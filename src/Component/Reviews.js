@@ -46,7 +46,7 @@ const Reviews = () => {
         <div className="img-container">
           <img src={image} alt="name" className="img" />
           <span className="quote-icon">
-            <FaQuoteRight />
+            <FaQuoteRight className="icon-animate" />
           </span>
         </div>
         <div className="name-container">

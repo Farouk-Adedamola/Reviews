@@ -108,3 +108,43 @@
     transform: scale(0.9);
   }
 }
+
+.icon-animate {
+  animation: Icons 4s linear 0s infinite normal none;
+}
+
+@keyframes Icons {
+  0% {
+    /* transform: scale(0.9); */
+    transform: translateY(-5%);
+  }
+
+  15% {
+    /* transform: scale(1); */
+    /* transform: translateY(-15%); */
+  }
+  30% {
+    /* transform: scale(1.1); */
+    transform: translateY(-30%);
+  }
+  45% {
+    /* transform: scale(1); */
+    /* transform: translateY(5%); */
+  }
+  60% {
+    /* transform: scale(0.9); */
+    transform: translateY(-5%);
+  }
+  75% {
+    /* transform: scale(0.9); */
+    transform: translateY(30%);
+  }
+  90% {
+    /* transform: scale(0.9); */
+    /* transform: translateY(-30%); */
+  }
+  100% {
+    /* transform: scale(0.9); */
+    transform: translateY(-5%);
+  }
+}
